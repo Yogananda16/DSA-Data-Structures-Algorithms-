@@ -1,10 +1,11 @@
 # Write code below 💖
 
-print("Bank of codedex")
+print("BANK OF CODÉDEX")
 
 pin = int(input("Enter your PIN: "))
 
 while pin != 1234:
-    print("Pin incorrect")
+    pin = int(input("Incorrect PIN. Enter your PIN again: "))
+
 if pin == 1234:
-    print("Pin accepted")
+    print("PIN accepted!")
