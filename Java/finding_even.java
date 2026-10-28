@@ -11,6 +11,8 @@ public class finding_even {
     }
 
     public static void main(String[] args) {
-        System.out.println(find(6));
+        // System.out.println(find(6));
+        boolean result = find(10);
+        System.out.println(result);
     }
 }
