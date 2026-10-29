@@ -1,5 +1,6 @@
 package Java;
 
+//Parent class
 class Person {
     String name;
 
@@ -7,7 +8,7 @@ class Person {
     Person(String name) {
         this.name = name;
     }
-
+    // child class
     class Student extends Person {
 
         int marks;
@@ -15,7 +16,7 @@ class Person {
         // child constructor
         Student(String name, int marks) {
 
-            // call [parent Person constructore
+            // call parent Person constructore
             super(name);
             this.marks = marks;
         }
