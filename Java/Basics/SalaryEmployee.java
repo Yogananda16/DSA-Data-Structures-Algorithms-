@@ -1,12 +1,12 @@
 package Java;
 
-class Employee {
+class SalaryofEmployee {
 
     private String name;
     private double salary;
 
     // constructor 1
-    Employee(String name, double salary) {
+    SalaryofEmployee(String name, double salary) {
         this.name = name;
         if (salary < 0) {
             this.salary = 0;
@@ -44,10 +44,10 @@ class Employee {
 
 }
 
-public class SalaryofEmployee {
+public class SalaryEmployee {
     public static void main(String[] args) {
 
-        Employee employee = new Employee("Yogananda", 50000.00);
+        SalaryofEmployee employee = new SalaryofEmployee("Yogananda", 50000.00);
         employee.giveRaise(10);
         System.out.println(employee.getName() + "'s salary: " + employee.getSalary());
 
