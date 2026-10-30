@@ -1,3 +1,5 @@
+package Java.Basics;
+
 public class Naming {
 
     static String greet(String name) {
